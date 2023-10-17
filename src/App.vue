@@ -7,7 +7,7 @@ const store = useStore();
 onLaunch(async () => {
   // 获取token
   store.checkLocalToken();
-  console.log("App Launch");
+  console.log('App Launch');
 });
 onShow(() => {
   console.log('App Show');
@@ -16,4 +16,3 @@ onHide(() => {
   console.log('App Hide');
 });
 </script>
-<style></style>
